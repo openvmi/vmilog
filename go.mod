@@ -1,4 +1,4 @@
-module vmilog
+module github.com/openvmi/vmilog
 
 go 1.16
 

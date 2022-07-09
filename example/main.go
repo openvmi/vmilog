@@ -1,6 +1,6 @@
 package main
 
-import "vmilog"
+import "github.com/openvmi/vmilog"
 
 func main() {
 	vmilog.EnableConsole(true)
