@@ -21,7 +21,7 @@ var (
 	enableFile    bool
 	rwm           sync.RWMutex
 	logPath       string
-	level         logrus.Level
+	level         = logrus.WarnLevel
 )
 
 func EnableConsole(enabled bool) {
